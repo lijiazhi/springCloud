@@ -9,6 +9,7 @@
         <module name="eureka-client" />
         <module name="eureka-server" />
         <module name="parent" />
+        <module name="service-feign" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
