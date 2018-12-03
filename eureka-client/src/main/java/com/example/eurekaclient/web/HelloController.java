@@ -8,10 +8,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     @Value("${server.port}")
-    String port;
+    private String port;
+    @Value("${url}")
+    private String datUrl;
 
     @RequestMapping("/hello")
     public String home(@RequestParam(value = "name", defaultValue = "visitor") String name) {
         return "hello " + name + " ,i am from port:" + port;
     }
+
+    @RequestMapping(value = "/hi")
+    public String hi(){
+        return datUrl;
+    }
+
 }

@@ -1,6 +1,3 @@
-server:
-  port: 8001
-
 spring:
   cloud:
     config:
@@ -12,5 +9,3 @@ spring:
         default-label: trunk
   profiles:
     active: subversion
-  application:
-    name: spring-cloud-config-server
