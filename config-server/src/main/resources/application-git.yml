@@ -3,6 +3,15 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/hongtaofans/properties.git
-          username:123
-          password:123
+        #仓库配置中心的配置信息
+        #uri表示配置中心所在仓库的位置
+          uri: https://github.com/lijiazhi/springCloudConfig/
+          #search-paths表示仓库下的子目录
+          search-paths: respo
+          #username表示你的GitHub用户名
+          username:
+          #password表示你的GitHub密码
+          password:
+          #更改本地仓库clone的配置文件信息的路径
+          basedir: D:\\localGitRepo\\
+      label: master
