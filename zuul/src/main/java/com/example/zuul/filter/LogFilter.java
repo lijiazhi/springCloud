@@ -1,12 +1,6 @@
 package com.example.zuul.filter;
 
-import com.netflix.zuul.ZuulFilter;
-import com.netflix.zuul.context.RequestContext;
-import com.netflix.zuul.exception.ZuulException;
-import org.springframework.stereotype.Component;
-
-import javax.servlet.http.HttpServletRequest;
-
+/*
 @Component
 public class LogFilter  extends ZuulFilter {
     RequestContext ctx = RequestContext.getCurrentContext();
@@ -30,4 +24,4 @@ public class LogFilter  extends ZuulFilter {
 
         return null;
     }
-}
+}*/

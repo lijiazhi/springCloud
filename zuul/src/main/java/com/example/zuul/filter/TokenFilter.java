@@ -1,15 +1,6 @@
 package com.example.zuul.filter;
 
-import com.netflix.zuul.ZuulFilter;
-import com.netflix.zuul.context.RequestContext;
-import org.apache.commons.lang.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Component;
-
-import javax.servlet.http.HttpServletRequest;
-
-@Component
+/*@Component
 public class TokenFilter extends ZuulFilter {
 
     private static Logger log = LoggerFactory.getLogger(TokenFilter.class);
@@ -49,4 +40,4 @@ public class TokenFilter extends ZuulFilter {
         }
 
     }
-}
+}*/
